@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 
-int main(int argc, char *argv[]) { 
+int main() {
   int8_t var1 = 10;
   int8_t *var_pointer;
  
@@ -17,5 +17,5 @@ int main(int argc, char *argv[]) {
 
   printf("var1 final value: %d\n", var1);
  
-  return EXIT_SUCCESS; 
+  return EXIT_SUCCESS;
 }
