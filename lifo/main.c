@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
   int value;
 
   while (control) {
+    printf("\n");
     printf("1. Initialize an Array.\n");
     printf("2. List all elements on the array.\n");
     printf("3. Pop a specific element.\n");

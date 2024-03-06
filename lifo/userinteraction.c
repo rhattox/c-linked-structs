@@ -3,7 +3,8 @@
 #include <stdbool.h>
 
 bool userinteration(int value){
-
+  
+  printf("\n");
   // Switch statement to handle different options
   switch(value) {
     case 1:
