@@ -1,4 +1,5 @@
 #include "userinteraction.h"
+#include "initarray.h"
 #include <stdio.h>
 #include <stdbool.h>
 
@@ -9,6 +10,7 @@ bool userinteration(int value){
   switch(value) {
     case 1:
       printf("You chose Option 1.\n");
+      initarray();
       break;
     case 2:
       printf("You chose Option 2.\n");
