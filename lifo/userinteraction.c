@@ -1,19 +1,25 @@
 #include "userinteraction.h"
 #include "initarray.h"
+#include "getsize.h"
+#include "listarray.h"
 #include <stdio.h>
 #include <stdbool.h>
 
 bool userinteration(int value){
-  
+  int* arrayPtr;
+  int* sizePtr;
+
   printf("\n");
   // Switch statement to handle different options
   switch(value) {
     case 1:
       printf("You chose Option 1.\n");
-      initarray();
+      sizePtr = getsize();
+      arrayPtr = initarray(sizePtr);
       break;
     case 2:
       printf("You chose Option 2.\n");
+      listarray(arrayPtr);
       break;
     case 3:
       printf("You chose Option 3.\n");

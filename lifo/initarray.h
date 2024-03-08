@@ -1,1 +1,2 @@
-int initarray();
+int* initarray(int*);
+

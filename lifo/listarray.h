@@ -1,0 +1,2 @@
+
+void listarray(int* array);
