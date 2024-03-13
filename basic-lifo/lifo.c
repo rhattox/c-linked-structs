@@ -11,10 +11,9 @@ void *listArray(int *arr, int *size){
 }
 
 void *popLastItem(int *size){
-  
+  printf("%d", *size);
   *size = *size - 1;
-
-
+  printf("%d", *size);
 }
 
 void *pushNewItem(int *arr, int *size){
@@ -66,7 +65,7 @@ int main(int argc, char *argv[])
       break;
       case 2:
         printf("\nPop an Element\n");
-        popLastItem(stackPtr);
+        popLastItem(sizePtr);
       break;
       case 3:
         printf("\nListing the array\n");
